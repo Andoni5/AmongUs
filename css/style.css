@@ -1,0 +1,58 @@
+/* Margenes del cuerpo */
+body{
+  font-family: arial, helvetica;
+  margin-right: 400px;
+  margin-left: 400px;
+  font-size: 105%
+}
+
+/* Texto Principal Inicio */
+p1{
+  line-height: 200%;
+  font-size: 0.9em
+}
+
+p2{
+  font-size: 0.9em;
+}
+
+p{
+  font-size: 22px;
+}
+
+/* Menu */
+.menu{
+  list-style: none;
+  padding: 0;
+  background: url(../images/xd.png);
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+}
+
+.menu li a{
+  text-decoration: none;
+  color: white;
+  padding: 17px;
+  display: block;
+}
+
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+
+.menu li a:hover{
+  background: #EF8354;
+}
+
+/* Fuente */
+@font-face {
+  font-family: 'fuente' ;
+  src: url(../fonts/UltraMoire.ttf);
+}
+
+
+#fuente{
+  font-family: 'fuente' ;
+}
